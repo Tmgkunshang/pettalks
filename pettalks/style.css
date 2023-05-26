@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('https://www.news-medical.net/images/news/ImageForNews_704692_16450308930134291.jpg')
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 25%;
+  padding: 40px 20px;
+  background-color: aliceblue;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-items {
+  flex: 1;
+  min-width: 40%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  width: 40%;
+  border: none;
+  padding: 10px 10px;
+  background-color: #ffc226;
+  color: Black;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+a {
+  margin: 5px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
